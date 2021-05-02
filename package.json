@@ -1,0 +1,19 @@
+{
+  "name": "mongodb-next-agg-stage",
+  "version": "1.0.0",
+  "description": "Suggests the next stage of a MongoDB aggregation pipeline based on the previous two.",
+  "main": "test.js",
+  "scripts": {
+    "test": "node test.js --model ./out/trained-model.json --test-set ./example-data/test-set.txt",
+    "train": "node train.js --training-set ./example-data/training-set.txt" 
+  },
+  "author": "Massimiliano Marcon <me@marcon.me>",
+  "license": "MIT",
+  "dependencies": {
+    "brain.js": "*",
+    "minimist": "^1.2.5"
+  },
+  "devDependencies": {
+    "semistandard": "^16.0.0"
+  }
+}

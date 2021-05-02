@@ -1,0 +1,12 @@
+$$,$match|$group
+$$,$match|$group
+$$,$match|$group
+$$,$match|$unwind
+$$,$match|$lookup
+$$,$match|$lookup
+$match,$group|$project
+$match,$unwind|$group
+$unwind,$group|$project
+$match,$lookup|$unwind
+$group,$project|$sort
+$group,$project|$count
