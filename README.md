@@ -10,7 +10,7 @@ It's mostly a toy and it's not used anywhere. It was also an opportunity to play
 In the `example-data` folder you can find some example data to train the model and some to test it.
 
 **Disclaimer:** I know very little of neural networks and machine learning. This experiment is put together by
-scrolling through tutorial and documentation as I was mostly interested in the use case and getting to something
+scrolling through tutorials and documentation as I was mostly interested in the use case and getting to something
 that kind of works as quickly as possible with as little code as possible.
 
 ## Train the model
